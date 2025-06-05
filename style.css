@@ -1,115 +1,31 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Clinique Les Arcades</title>
-  <link rel="stylesheet" href="style.css">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #1c5d99;
-      color: white;
-      padding: 10px 20px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .logo img {
-      height: 50px;
-    }
-    nav ul {
-      list-style: none;
-      display: flex;
-      gap: 15px;
-    }
-    nav ul li a {
-      color: white;
-      text-decoration: none;
-    }
-    .section {
-      padding: 20px;
-    }
-    footer {
-      background-color: #1c5d99;
-      color: white;
-      text-align: center;
-      padding: 10px;
-    }
-    .whatsapp-float {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background-color: #25d366;
-      color: white;
-      border-radius: 50%;
-      padding: 15px;
-      font-size: 24px;
-      box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
-      z-index: 1000;
-      text-align: center;
-    }
-    .whatsapp-float:hover {
-      background-color: #128c7e;
-    }
-  </style>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-</head>
-<body>
-  <header>
-    <div class="logo">
-      <img src="CliniqueClinique Les Arcades" alt="Logo Clinique Les Arcades">
-    </div>
-    <nav>
-      <ul>
-        <li><a href="#accueil">Accueil</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#equipe">Notre équipe</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <section id="accueil" class="section">
-    <h1>Bienvenue à la Clinique Les Arcades</h1>
-    <p>Des soins de qualité, une équipe attentionnée, votre santé notre priorité.</p>
-  </section>
-
-  <section id="services" class="section">
-    <h2>Nos Services</h2>
-    <ul>
-      <li>Consultations générales et spécialisées</li>
-      <li>Examens de laboratoire</li>
-      <li>Petite chirurgie</li>
-      <li>Hospitalisation et soins d'urgence</li>
-    </ul>
-  </section>
-
-  <section id="equipe" class="section">
-    <h2>Notre Équipe</h2>
-    <p>Des médecins, infirmiers et spécialistes engagés pour votre santé et votre bien-être.</p>
-  </section>
-
-  <section id="contact" class="section">
-    <h2>Contact</h2>
-    <p><strong>Adresse :</strong> Adidogomé Sagbado, non loin de la gendarmerie de Sagbado</p>
-    <p><strong>Tél :</strong> +228 90740545 / 92508911</p>
-    <p><strong>Email :</strong> lesarcadesclinique3@gmail.com</p>
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31687.705859153237!2d1.1610883!3d6.1785854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1021a1192b6bba25%3A0xa5e064e1101d7404!2sAdidogom%C3%A9%2C%20Lom%C3%A9!5e0!3m2!1sfr!2stg!4v1717430000000!5m2!1sfr!2stg"
-      width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Clinique Les Arcades. Tous droits réservés.</p>
-  </footer>
-
-  <a href="https://wa.me/22892508911" class="whatsapp-float" target="_blank">
-    <i class="fab fa-whatsapp"></i>
-  </a>
-</body>
-</html>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f8ff;
+}
+header {
+  background: #0074cc;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+section {
+  padding: 20px;
+}
+footer {
+  background: #0074cc;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
