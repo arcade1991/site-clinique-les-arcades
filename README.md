@@ -7,3 +7,5 @@ cd backend
 npx prisma migrate dev --name init
 npx ts-node prisma/seed.ts
 npx ts-node prisma/seed.ts
+docker exec -it site-clinique-les-arcades_db_1 psql -U clinic -d clinicdb -c "SELECT * FROM \"Medecin\";"
+docker exec -it site-clinique-les-arcades_db_1 psql -U clinic -d clinicdb -c "SELECT * FROM \"Medecin\";"
