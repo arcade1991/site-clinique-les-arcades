@@ -12,3 +12,4 @@ docker exec -it site-clinique-les-arcades_db_1 psql -U clinic -d clinicdb -c "SE
 http://localhost:4000/api/medecins
 http://localhost:4000/api/appointments
 http://localhost:4000/api/health
+http://localhost:3000/
